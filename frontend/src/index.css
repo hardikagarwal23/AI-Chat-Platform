@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #121831;
+}
+
+.katex-display {
+  overflow-x: auto;
+  overflow-y: hidden;
+  /* padding: 0.25rem 0; */
+}
